@@ -103,21 +103,7 @@ Open a teehr-post-event notebook and begin working:
 ## 3) Working locally using Docker
 Following steps above up to and including downloading geometry data.
 
-Return to the working directory, clone the teehr repo, and change into the teehr directory:
-```bash
-cd my_working_dir
-$ git clone https://github.com/RTIInternational/teehr.git
-cd teehr
-```
-Switch to TEEHR v0.1.3
-```bash
-git checkout v0.1.3
-```
-Launch docker and mount your home directory
-```bash
-$ docker build -t teehr:v0.1.3 .
-$ docker run -it --rm --volume $HOME:$HOME -p 8888:8888 teehr:v0.1.3 jupyter lab --ip 0.0.0.0 $HOME
-```
+TBD
 
 If JupyterLab does not automatically open in a browser, open a browser and go the URL: 
 ```
