@@ -104,8 +104,3 @@ Open a teehr-post-event notebook and begin working:
 Following steps above up to and including downloading geometry data.
 
 TBD
-
-If JupyterLab does not automatically open in a browser, open a browser and go the URL: 
-```
-http://localhost:8888
-```
